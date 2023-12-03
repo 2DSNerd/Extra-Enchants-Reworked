@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "og_enchants",
+  "version": "${version}",
+
+  "name": "Extra Enchants Reworked",
+  "description": "Mod For People That Loves Enchantments That Are Goofy",
+  "authors": [
+    "2DSNerd"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/Extra-Enchants-Reworked",
+    "sources": "https://github.com/2DSNerd/Extra-Enchants-Reworked"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/og_enchants/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.enchants.og_enchants.og_enchants"
+    ]
+  },
+  "mixins": [
+    "og_enchants.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "You Stand No Chance Fabric"
+  }
+}

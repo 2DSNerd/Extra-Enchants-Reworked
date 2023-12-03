@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.enchants.og_enchants.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "EnchantsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
